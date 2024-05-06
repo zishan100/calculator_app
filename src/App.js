@@ -31,6 +31,10 @@ function App (){
 
     const calculator = ()=>{
       // console.log(calculateVal);
+      if( calculateVal === '' ) {
+        setResult('Error');
+        return;
+      }
 
       let checkResult =calculateVal;
 
@@ -58,7 +62,7 @@ function App (){
       
       {
         
-        (<div>{result}</div>)
+        result && (<div>{result}</div>)
       }
       <div>
         
