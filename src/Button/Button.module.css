@@ -1,0 +1,11 @@
+.calulatorBtn{
+    margin:3px;
+    border-radius: 1rem;
+    width:8vw;
+    height:8vh;
+    outline: none;
+    /* border:1px solid grey; */
+    font-weight:bold;
+    font-size: 1.5rem;
+    cursor:pointer;
+}
